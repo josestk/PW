@@ -1,0 +1,161 @@
+*{
+	margin: 0em;
+	padding: 0em;	
+}
+
+body{
+	
+	background: url('/webapplication/img/imagen.jpg');
+	
+}
+#cuadro{
+	
+	width:20em;
+	color: #ffffff;
+	margin:auto;
+	margin-top:10em;
+	padding: 5em 5em 30em 5em;
+	border-top: 5em solid #141414;
+	border-left:5em solid #141414;
+	border-right: 5em solid #141414;
+	border-bottom: 5em solid #141414;
+	border-radius:1em; /*Para darle una forma redonda en los picos*/
+	/*opacity: 0.7;*/
+}
+
+.entrada{
+	
+	width:24em;
+	height:3em;
+	border-radius:1em;
+	font-family:verdana;
+	font-weight:900;
+}
+
+.entrada2{
+	
+	width:24em;
+	height:3em;
+	border-radius:1em;
+	font-family:verdana;
+	font-weight:900;
+}
+
+
+#buttom{
+	
+	width:20em;
+	height: 3em;
+	border-radius: 1em;
+	background: blue;
+	color: #ffffff;
+	font-size: 1em;
+}
+
+#button1{
+	
+	width:7em;
+	height: 3em;
+	border-radius: 1em;
+	background: #090909;
+	color: #ffffff;
+	font-size: 1em;
+}
+
+#apartado{
+	
+	color:white;
+}
+
+#titulo{
+	
+    padding-left:2em;
+	font-size:2em;
+	font-family: fantasy;
+	padding-top:2em;
+	color: #090909;
+	
+}
+
+#titulo1{
+	
+	padding-left:2em;
+	font-size:2em;
+	font-family: fantasy;
+	padding-top:2em;
+	color: #090909;
+	
+}
+
+#titulo2{
+	
+	padding-left:1em;
+	font-size:2em;
+	font-family: fantasy;
+	padding-top:2em;
+	color: #090909;
+	
+}
+
+#subtitulo1{
+	
+	padding-left:7em; /*Cuanto mayor sea m�s a la derecha  est�*/
+	color: #090909;
+		
+	
+}
+
+#subtitulo2{
+	
+	padding-left:5em;
+	color: #090909;
+	
+}
+
+#subtitulo3{
+	
+	padding-left:8em;
+	color: #090909;
+	
+}
+
+body{
+	background-color:34495e;
+}
+
+.field {
+  display:flex;
+  position:realtive;
+  margin:5em auto;
+  width:70%;
+  flex-direction:row;
+  box-shadow:
+   1px 1px 0 rgb(26, 48, 188),
+   2px 2px 0 rgb(26, 48, 188),
+   3px 3px 0 rgb(26, 48, 188),
+   4px 4px 0 rgb(26, 48, 188),
+   5px 5px 0 rgb(26, 48, 188),
+   6px 6px 0 rgb(26, 48, 188),
+   7px 7px 0 rgb(26, 48, 188)
+  ;
+}
+
+.field>input[type=text],
+.field>button {
+  display:block;
+  font:1.2em 'Montserrat Alternates';
+}
+
+.field>input[type=text] {
+  flex:1;
+  padding:0.6em;
+  border:0.2em solid rgb(26, 93, 188);
+}
+
+.field>button {
+  padding:0.6em 0.8em;
+  background-color: rgb(26, 93, 188);
+  color:white;
+  border:none
+}
+

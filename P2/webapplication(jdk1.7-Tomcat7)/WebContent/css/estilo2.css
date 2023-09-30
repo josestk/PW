@@ -1,0 +1,23 @@
+*{
+	margin: 0em;
+	padding: 0em;	
+}
+
+body{
+	
+	background: url('/webapplication/img/imagen.jpg');
+	
+}
+
+#Cuadro{
+	
+	
+	
+}
+#titulo{
+	
+	padding-left:10em;
+	font-family:verdana;
+	font-weigth:900;
+	
+}

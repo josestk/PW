@@ -1,0 +1,68 @@
+*{
+	margin: 0em;
+	padding: 0em;	
+}
+
+body{
+	
+	background: url('/webapplication/img/imagen.jpg');
+	
+}
+#cuadro{
+	
+	width:20em;
+	color: #ffffff;
+	margin:auto;
+	margin-top:120px;
+	padding: 5em 5em 30em 5em;
+	border-top: 5em solid #141414;
+	border-left:5em solid #141414;
+	border-right: 5em solid #141414;
+	border-bottom: 5em solid #141414;
+	border-radius:1em; /*Para darle una forma redonda en los picos*/
+	/*opacity: 0.7;*/
+}
+
+.entrada{
+	
+	width:24em;
+	height:3em;
+	border-radius:1em;
+	font-family:verdana;
+	font-weight:900;
+}
+
+#buttom{
+	
+	width:20em;
+	height: 3em;
+	border-radius: 1em;
+	background: blue;
+	color: #ffffff;
+	font-size: 1em;
+}
+
+#titulo{
+	
+	padding-left:1em;
+	font-size:2em;
+	font-family: fantasy;
+	padding-top:4em;
+	color: #090909;
+	
+}
+
+#subtitulo1{
+	
+	padding-left:7em; /*Cuanto mayor sea más a la derecha  está*/
+	color: #090909;
+		
+	
+}
+
+#subtitulo2{
+	
+	padding-left:7em;
+	color: #090909;
+	
+}
